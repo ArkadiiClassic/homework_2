@@ -137,8 +137,6 @@ namespace training_manual
                 Console.Write(i + " ");
                 Console.WriteLine("Привет");
             }*/
-
-
         }
     }
 }

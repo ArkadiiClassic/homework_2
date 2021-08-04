@@ -6,7 +6,7 @@ namespace training_manual
     {
         // Перечисления
         // Вводится число, программа печатает, какой это день недели: 
-        enum Days { Sat, Sun, Mon, Tue, Wed, Thu, Fri }
+        /*enum Days { Sat, Sun, Mon, Tue, Wed, Thu, Fri }*/
         static void Main(string[] args)
         {
             // УСЛОВИЯ
@@ -72,10 +72,73 @@ namespace training_manual
 
             // Перечисления
             // Вводится число, программа печатает, какой это день недели:
-            Console.Write("Введи число от 1 до 7: ");
+            /*Console.Write("Введи число от 1 до 7: ");
             var a = int.Parse(Console.ReadLine());
+            string s;
+            switch (a)
+            {
+                case 1:
+                    s = $"{Days.Sat}";
+                    break;
+                case 2:
+                    s = $"{Days.Sun}";
+                    break;
+                case 3:
+                    s = $"{Days.Mon}";
+                    break;
+                case 4:
+                    s = $"{Days.Tue}";
+                    break;
+                case 5:
+                    s = $"{Days.Wed}";
+                    break;
+                case 6:
+                    s = $"{Days.Thu}";
+                    break;
+                case 7:
+                    s = $"{Days.Fri}";
+                    break;
+                default:
+                    s = "пустота";
+                    break;
+            }
+            Console.WriteLine(s);*/
 
-            
+
+            // Цикл while
+            // Задача. Ввести целое положительное число (<2000000000) и определить количество цифр в нём.
+            /*Console.WriteLine("Ввести целое положительное число (<2000000000): ");
+            int n = int.Parse(Console.ReadLine());
+            int count = 0;
+            while (n != 0)
+            {
+                count++;
+                n /= 10;
+            }
+            Console.WriteLine(count);*/
+
+
+            // Цикл do while
+            // Задача. Организовать ввод данных, ограничив значения числами от 1 до 99.
+            /*int n, count = 0;
+            do
+            {
+                Console.WriteLine("от 1 до 99: ");
+                n = int.Parse(Console.ReadLine());
+                count++;
+            } while (n < 1 || n > 99);
+            Console.WriteLine("попыток: " + count);*/
+
+
+            // Оператор цикла for
+            // Задача. Вывести на экран 5 раз слово «Привет».
+            /*for (int i = 1; i < 6; i++)
+            {
+                Console.Write(i + " ");
+                Console.WriteLine("Привет");
+            }*/
+
+
         }
     }
 }
